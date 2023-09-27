@@ -12,9 +12,8 @@ jobs:
         with:
           publish-features: "true"
           base-path-to-features: "./src"
-          features-namespace: "tailscale/codespace"
-          templates-namespace: "tailscale/codespace"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          features-namespace: "kwekewk/tailscale"
+          templates-namespace: "kwekewk/tailscale"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 permissions:
